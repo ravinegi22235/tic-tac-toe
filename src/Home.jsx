@@ -9,7 +9,7 @@ const Home = () => {
            
             <div className='w-full max-w-[400px] mx-5 backdrop:blur-2xl h-full'>
         <Link to={"tic"}>
-              <button className=' text-5xl w-full py-8  text-white border bg-green-700  rounded-xl hover:bg-green-800 hover:text-white hover:text-green-800 transition-colors duration-200' > Start Game</button>
+              <button className=' text-5xl w-full py-8  text-white border bg-green-700  rounded-xl hover:bg-green-800 hover:text-white  transition-colors duration-200' > Start Game</button>
         </Link>  
             </div>
 
