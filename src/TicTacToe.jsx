@@ -63,7 +63,7 @@ const TicTacToe = () => {
     return (<>
 
         <div className='min-h-screen bg-slate-500 flex items-center justify-center w-screen'
-        style={{ backgroundImage: `url("")`, backgroundSize: "cover", backgroundPosition: "center" }}>
+     >
 
             <div>  <ToastContainer /></div>
             <div className='w-full max-w-[400px] mx-5'>
