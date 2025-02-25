@@ -10,12 +10,12 @@ function App() {
   return (
     <>
     <HashRouter>
-      {/* <BrowserRouter> */}
+     
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='tic' element={<TicTacToe/>}/>
         </Routes>
-      {/* </BrowserRouter> */}
+
       </HashRouter>
   
     </>)

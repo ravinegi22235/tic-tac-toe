@@ -1,6 +1,7 @@
 {
   "name": "tictaktoe",
   "private": true,
+  "homepage": " https://ravinegi22235.github.io/tic-tac-toe/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
