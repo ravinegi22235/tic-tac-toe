@@ -2,7 +2,7 @@
 import './App.css'
 import Home from './Home'
 import TicTacToe from './TicTacToe'
-import { HashRouter,BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
 
@@ -10,12 +10,12 @@ function App() {
   return (
     <>
     <HashRouter>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='tic' element={<TicTacToe/>}/>
         </Routes>
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
       </HashRouter>
   
     </>)
